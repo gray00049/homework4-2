@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 480px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+.stepForm__form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.stepForm__label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.stepForm__input {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  background: none;
+}
+
+button.stepForm__input{
+  transition: all .3s;
+  cursor: pointer;
+}
+
+button.stepForm__input:hover{
+  background: #000;
+  color: #fff;
+}
+
+.stepForm__input:hover,
+.stepForm__input:focus {
+  outline: none;
+}
+
+.trainList {
+  margin-top: 40px;
+}
+
+.trainList__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trainList__list {
+  border: 2px solid #000;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.trainList__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trainList__control {
+  border: none;
+  background: none;
+  cursor: pointer;
+  opacity: .5;
+  transition: all .3s;
+}
+
+.trainList__control:hover {
+  opacity: 1
+}
+
+.trainList__control:focus {
+  outline: none;
+}
